@@ -29,9 +29,13 @@ const XDictionary = () => {
         placeholder="Search for a word"
       />
       <button onClick={handleSearch}>Search</button>
-      <p><h2>Definition:</h2> {result}</p>
+      <div>
+        <h2>Definition:</h2>
+        <p>{result}</p>
+      </div>
     </div>
   );
 };
 
 export default XDictionary;
+
